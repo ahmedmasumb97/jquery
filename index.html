@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery js</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+<script src="./index.js"></script>
+<style>
+   
+    .container> div{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+      
+        transition: all 1s;
+    }
+</style>
+
+</head>
+<body>
+
+    <!-- hide element -->
+
+    <p id="demo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tenetur id asperiores.</p>
+    <button type="button" id="btn1">Hide</button>
+
+    <button type="button" id="btn2">hide</button>
+
+
+    <!-- when press double it will be hide using dblclick -->
+
+    <p id="demo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tenetur id asperiores.</p>
+
+
+    <!-- mouse hover -->
+
+    <p id="demo3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tenetur id asperiores.</p>
+
+    <!-- input focus -->
+     <input type="text" placeholder="enter name" id="ip1">
+
+
+     <!-- add more function in one element using (.on) method -->
+
+     <h1 class="demo4">Title is here</h1>
+     <button type="button" id="btn3">show and hide</button>
+
+     <!-- fade in and out and toggle  -->
+    <br><br>
+     <button type="button" id="btn4">click</button>
+     <div class="container">
+        <div style="background-color: yellow;" id="div1"></div>
+        <div style="background-color: red;" id="div2"></div>
+        <div style="background-color: aqua;" id="div3"></div>
+     </div>
+
+
+     <button type="button" id="btn5">slide</button>
+     <div id="div5" style="background-color: aqua ;padding:50px; display:none">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit.</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto eius error dolores unde soluta minima quas vero odit. Saepe, soluta?</p>
+     </div>
+
+
+
+     <button type="button" id="btn6">animate+</button>
+     <button type="button" id="btn7">animate-</button>
+     <div id="div6" id="div7" style="background-color: aqua ;width:150px; height:150px">
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto eius error dolores unde soluta minima quas vero odit. Saepe, soluta?</p>
+     </div>
+    
+    
+</body>
+</html>
